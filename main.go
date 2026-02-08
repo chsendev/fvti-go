@@ -12,7 +12,7 @@ func main() {
 	router(mux)
 
 	server := &http.Server{
-		Addr:         ":8081",
+		Addr:         ":8080",
 		Handler:      mux,
 		ReadTimeout:  10 * time.Second,
 		WriteTimeout: 10 * time.Second,
