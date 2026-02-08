@@ -2,5 +2,5 @@ kind: template
 load: .drone.tmpl.yaml
 data:
   name: fvti-go
-  namespace: fvti-go
+  namespace: fvti
   deployment: fvti-go-v1
