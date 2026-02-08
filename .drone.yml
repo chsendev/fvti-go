@@ -1,0 +1,6 @@
+kind: template
+load: .drone.tmpl.yaml
+data:
+  name: fvti-go
+  namespace: fvti-go
+  deployment: fvti-go-v1
